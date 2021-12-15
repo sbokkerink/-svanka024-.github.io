@@ -41,7 +41,7 @@ align-items: flex-start;
     height: 150px;
     width: 200px;
     background-color: black;
-    color: azure;
+    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -53,7 +53,7 @@ align-items: flex-start;
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
