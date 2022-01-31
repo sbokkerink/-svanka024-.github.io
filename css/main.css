@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background: linear-gradient(#758bfd, #f1f2f6);
+    background: linear-gradient(#8e6e53, white);
 }
 main{
 width: 100%;
@@ -14,7 +14,7 @@ flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 }
-#svenhomeblauw{
+#svenhome{
     height: 50%;
     width: 50%;
     display: flex;
@@ -23,25 +23,16 @@ align-items: flex-start;
 }
 .container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
-}
-.home{
-    width: 24%;
-    height: 200px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #758bfd;
-    background-color: white;
+    width: center;
 }
 .dropbtn{
     height: 150px;
     width: 200px;
-    background-color: #ff8600;
-    color: white;
+    background-color: #c0b7b1;
+    color: rgb(255, 255, 255);
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -53,9 +44,9 @@ align-items: flex-start;
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 .dropdown-content a {
@@ -64,6 +55,23 @@ align-items: flex-start;
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #aeb8fe;}
+.dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #758bfd;}
+.dropdown:hover .dropbtn {background-color: #c0b7b1;}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: center;
+}
+.div1{
+    width: 80%;
+    height: 800px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: center;
+}
