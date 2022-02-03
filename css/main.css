@@ -1,6 +1,5 @@
 body{
-    min-height: 100vh;
-    background: linear-gradient(#8e6e53, white);
+    background-color: whitesmoke;
 }
 main{
 width: 100%;
@@ -31,8 +30,8 @@ align-items: flex-start;
 .dropbtn{
     height: 150px;
     width: 200px;
-    background-color: #c0b7b1;
-    color: rgb(255, 255, 255);
+    background-color: rgb(58, 58, 58);
+    color: whitesmoke;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -44,7 +43,7 @@ align-items: flex-start;
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -55,9 +54,9 @@ align-items: flex-start;
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: white;}
+.dropdown-content a:hover {background-color: whitesmoke;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #c0b7b1;}
+.dropdown:hover .dropbtn {background-color: rgb(58, 58, 58);}
 .container1{
     display: flex;
     justify-content: center;
@@ -70,7 +69,7 @@ align-items: flex-start;
     height: 800px;
     border-radius: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     width: center;
