@@ -15,14 +15,14 @@ nav {
   justify-items: center;
   align-items: center;
 }
-.mainindex.img {
+#mainindex {
   height: 50%;
   width: 50%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
-#mainervaring.img {
+#mainervaring {
   height: 50%;
   width: auto;
   display: flex;
@@ -30,7 +30,7 @@ nav {
   align-items: center;
   position: center;
 }
-#roc.img {
+#roc {
   height: 80%;
   width: 40%;
   display: flex;
@@ -38,7 +38,7 @@ nav {
   align-items: center;
   position: center;
 }
-#stage.img {
+#stage {
   height: 80%;
   width: 55%;
   display: flex;
@@ -46,7 +46,7 @@ nav {
   align-items: center;
   position: center;
 }
-#werk.img {
+#werk {
   height: 80%;
   width: 50%;
   display: flex;
